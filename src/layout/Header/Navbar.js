@@ -2,14 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import OffCanvasMenu from "./OffCanvasMenu";
 import { HiMenu, HiOutlineX } from "react-icons/hi";
-import {
-  navHomeOne,
-  navHomeTwo,
-  navCompanyLinks,
-  navCompanyPage,
-  navHomeThree,
-  navHomeFour,
-} from "./../../data";
 import {HashLink} from "react-router-hash-link";
 const Navbar = ({
   navDark,

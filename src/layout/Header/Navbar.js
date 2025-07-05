@@ -145,12 +145,15 @@ const Navbar = ({
                   className="close-btn text-danger"
                   data-bs-dismiss="offcanvas"
                   aria-label="Close"
-                  style={{ width: "37px", height: "37px" }}
+                  style={{ width: "37px", height: "37px",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    justifyContent: "center"
+                }}
                 >
                     <img
                         src="/assets/img/close.svg"
                         alt="Close Icon"
-                        style={{marginBottom: "2px"}}
                     />
                 </button>
               </div>

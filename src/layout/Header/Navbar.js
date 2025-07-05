@@ -75,7 +75,15 @@ const Navbar = ({
                 data-bs-target="#offcanvasWithBackdrop"
                 aria-controls="offcanvasWithBackdrop"
               >
-                <HiMenu style={{ width: "1.8em", height: "1.8em" }} />
+                <div style={{
+                  width: "2rem",
+                  height: "2rem",
+                  display: "inline-flex",
+                  alignItems: "center",
+                  justifyContent: "center"
+                }}>
+                    <HiMenu style={{ width: "100%", height: "100%" }} />
+                </div>
               </span>
             </button>
             <div className="clearfix"></div>
@@ -136,9 +144,19 @@ const Navbar = ({
                   className="close-btn text-danger"
                   data-bs-dismiss="offcanvas"
                   aria-label="Close"
-                  style={{ width: "35px", height: "35px"}}
+                  style={{ width: "35px", height: "35px" }}
                 >
-                  <HiOutlineX style={{ width: "1.7em", height: "1.7em", marginLeft: "-2px", marginBottom: "1px" }} />
+                  <div style={{
+                    width: "2rem",
+                    height: "2rem",
+                    display: "inline-flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    paddingTop: "0.1rem",
+                    paddingRight: "0.6rem",
+                  }}>
+                    <HiOutlineX style={{ width: "100%", height: "100%" }} />
+                  </div>
                 </button>
               </div>
 

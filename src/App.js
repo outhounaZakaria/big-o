@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Services from "./pages/services/Services";
 import ScrollToTop from "./components/common/ScrollToTop";
 import HomeSoftApplication from "./themes/index5/HomeSoftApplication";

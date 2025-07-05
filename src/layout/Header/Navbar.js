@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import OffCanvasMenu from "./OffCanvasMenu";
 import { HiMenu, HiOutlineX } from "react-icons/hi";
 import {HashLink} from "react-router-hash-link";
+
 const Navbar = ({
   navDark,
   insurance,
@@ -126,7 +127,7 @@ const Navbar = ({
               tabIndex="-1"
               id="offcanvasWithBackdrop"
             >
-              <div className="offcanvas-header d-flex align-items-center mt-4">
+              <div className="offcanvas-header d-flex align-items-center mt-1">
                 <Link
                   to="/"
                   className="d-flex align-items-center mb-md-0 text-decoration-none"
@@ -144,19 +145,13 @@ const Navbar = ({
                   className="close-btn text-danger"
                   data-bs-dismiss="offcanvas"
                   aria-label="Close"
-                  style={{ width: "35px", height: "35px" }}
+                  style={{ width: "37px", height: "37px" }}
                 >
-                  <div style={{
-                    width: "2rem",
-                    height: "2rem",
-                    display: "inline-flex",
-                    alignItems: "center",
-                    justifyContent: "center",
-                    paddingTop: "0.1rem",
-                    paddingRight: "0.6rem",
-                  }}>
-                    <HiOutlineX style={{ width: "100%", height: "100%" }} />
-                  </div>
+                    <img
+                        src="/assets/img/close.svg"
+                        alt="Close Icon"
+                        style={{marginBottom: "2px"}}
+                    />
                 </button>
               </div>
 

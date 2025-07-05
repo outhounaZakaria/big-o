@@ -15,7 +15,7 @@ const PageHeader = ({ title, desc, integration, blogtags }) => {
         >
           <div className='container'>
             <div
-              className={`row ${
+              className={`row ${ 
                 blogtags ? 'justify-content-center text-center' : ''
               }`}
             >

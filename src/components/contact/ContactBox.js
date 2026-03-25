@@ -25,22 +25,6 @@ const ContactBox = () => {
                 </a>
               </div>
             </div>
-            <div className='col-lg-4 col-md-6 mt-4 mt-lg-0'>
-              <div className='contact-us-promo p-5 bg-white rounded-custom custom-shadow text-center d-flex flex-column h-100'>
-                <span className='fad fa-phone fa-3x text-primary'></span>
-                <div className='contact-promo-info mb-4'>
-                  <h5>Give us a call</h5>
-                  <p>
-                    Give us a call — we’re available,
-                    <strong> Monday to Friday</strong> from
-                    <strong> from 9 AM to 5 PM.</strong>
-                  </p>
-                </div>
-                <a href='tel:+212 617 79 71 34' className='btn btn-link mt-auto'>
-                  +212 617 79 71 34
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </section>
